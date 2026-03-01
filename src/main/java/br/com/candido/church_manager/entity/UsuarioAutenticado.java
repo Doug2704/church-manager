@@ -24,6 +24,7 @@ public class UsuarioAutenticado implements UserDetails {
         return usuario.getPassword();
     }
 
+
     @Override
     public String getUsername() {
         return usuario.getUsername();
